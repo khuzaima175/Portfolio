@@ -25,6 +25,20 @@ const Projects = () => {
             ],
             tags: ["Python 3.10+", "CustomTkinter", "Gemini API", "Matplotlib", "SQLite"],
             color: "from-green-400 to-emerald-600"
+        },
+        {
+            title: "Movie Tracker Pro",
+            description: "A feature-rich React dashboard for movie enthusiasts to search, track, and rate cinematic experiences with a focus on professional aesthetics and smooth performance.",
+            features: [
+                "Real-time Search: Search movies/series with type filtering.",
+                "Trending Discovery: Curated popular movie grid for discovery.",
+                "Dual-List Management: Separate 'Watched' and 'Plan to Watch' lists.",
+                "Smart Random Picker: Animated selection tool for undecided viewers.",
+                "Cinematic Stats: Total watch time analysis and top-rated badges.",
+                "Modern UX: Staggered animations and glassmorphism design."
+            ],
+            tags: ["React", "Custom Hooks", "OMDb API", "Vanilla CSS", "LocalStorage"],
+            color: "from-blue-500 to-cyan-400"
         }
     ];
 
