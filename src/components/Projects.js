@@ -27,9 +27,10 @@ const Projects = () => {
             color: "from-green-400 to-emerald-600"
         },
         {
-            title: "Movie Tracker Pro",
+            title: "AI Movie Ratings & Recommender",
             description: "A feature-rich React dashboard for movie enthusiasts to search, track, and rate cinematic experiences with a focus on professional aesthetics and smooth performance.",
             features: [
+                "AI Assistant: Chat with a film buff AI for personalized picks.",
                 "Real-time Search: Search movies/series with type filtering.",
                 "Trending Discovery: Curated popular movie grid for discovery.",
                 "Dual-List Management: Separate 'Watched' and 'Plan to Watch' lists.",
@@ -37,8 +38,21 @@ const Projects = () => {
                 "Cinematic Stats: Total watch time analysis and top-rated badges.",
                 "Modern UX: Staggered animations and glassmorphism design."
             ],
-            tags: ["React", "Custom Hooks", "OMDb API", "Vanilla CSS", "LocalStorage"],
+            tags: ["React", "Custom Hooks", "Google Gemini API", "OMDb API", "Vanilla CSS"],
             color: "from-blue-500 to-cyan-400"
+        },
+        {
+            title: "Idea Flow 🧠",
+            description: "A high-performance, AI-powered 'Mind Palace' designed to capture your thoughts at the speed of light. Instantly turns raw voice notes or text into structured insights using Gemini 2.0.",
+            features: [
+                "Smart Voice Capture: Hands-free recording with AI transcription.",
+                "Deep Dive AI: One-click strategic expansion & roadmaps.",
+                "AI Refinement: Polishes titles, summaries, and action items.",
+                "Local-First Privacy: Data stays in browser storage (Vault Management).",
+                "Power User Shortcuts: Keyboard-driven workflow for speed."
+            ],
+            tags: ["Vite + React", "TypeScript", "Google Gemini 2.0", "Tailwind CSS", "Framer Motion"],
+            color: "from-indigo-500 to-violet-500"
         }
     ];
 
